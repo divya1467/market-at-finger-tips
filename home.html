@@ -6,7 +6,14 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-    <style>
+    <meta name="description" content="A CSS Grid powered menu with a box look" />
+		<meta name="keywords" content="menu, css grid, box, navigation, web development, animation" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo1.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<style>
         
     
 
@@ -1015,6 +1022,133 @@ div.highlightTextIn a:before
         </div>
      </div>
       </section>
+	  <body class="demo-1">
+		<svg class="hidden">
+			
+		</svg>
+		<main>
+			<div class="message">To see the menu, please view on a larger screen.</div>
+			<div class="content content--fixed">
+				<header class="codrops-header">
+					<div class="codrops-links">
+						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GlitchSlideshow/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=34419" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+					</div>
+					<h1 class="codrops-header__title"></h1>
+					
+				</header>
+				<nav class="demos">
+					<a class="demo demo--current" href="index.html"></a>
+			
+				</nav>
+				<button class="menu-trigger"><strong>+ CLICK ME</strong></button>
+			</div>
+			<div id="content-1" class="content content--switch content--switch-current">
+				<h2 class="content__title">Market At Fingertips</h2>
+				<div class="content__text">In the sway of Corona Virus,many shops have been laid off which held people in perplexity regarding
+the question <strong>"whether a particular shop is open or not?" "Do they have the facility of Home Delivery?"
+So to tackle this uncertainity we have taken an initiative to lauch this website with all the information of 
+of all major shops of Dhanbad region of all sections like Hospitals,Medical shops,Stationary, restaurants, Ration Shops etc
+with a single click!</div>
+			</div>
+			<div id="content-2" class="content content--switch">
+				<h2 class="content__title">Electronics</h2>
+				<p class="content__text">The recent pandemic caused by SARS-CoV-2 has now spread worldwide and caused more than 7,00,000 deaths.Defeating this pandemic is impossible without united and coordinated international attempts shaped by all countries of the world.So,to ease in our daily life with precautions we decided to take an initiative through this app by providing important data regardining opening and closing of popular shops,hospitals and important places in dhanbad region.We have so far trying to give contact details,websites and address of all electronic and hardware major and minor shops of Dhanbad in this section.We tried to include all crowded places of Dhanbad where these shops are situated </p>
+			</div>
+			<div id="content-3" class="content content--switch">
+				<h2 class="content__title">Stationary</h2>
+				<p class="content__text">In this pandemic all schools and colleges are closed across the country we can"t keep our education at stake.So,this section provides the information of places where students can get all the access to continue their education without any interruption.They will get all the information of education related places and can avoid hovering in market. </p>
+			</div>
+			<div id="content-4" class="content content--switch">
+				<h2 class="content__title">Others</h2>
+				<p class="content__text">After lockdown ended in the country many of the  government offices are opened and many are not.So,through this section you can get all neccessary details of government offices and the details of places of our basic needs like-ATMs,petrol pups etc.Roaming in mall is safer than roaming in roadside markets since mall authorities takes all necessary precautions so it has all details of malls of Dhanbad</p>
+			</div>
+			<div id="content-5" class="content content--switch">
+				<h2 class="content__title">Restaurants</h2>
+				<p class="content__text">Since many people don't know cooking.So this sections provides details of all restaurants,dhabas,food courts of Dhanbad along with the providing the details of whether providing home delivery or not.</p>
+			</div>
+			<div id="content-6" class="content content--switch">
+				<h2 class="content__title">Medical</h2>
+				<p class="content__text">Admist this COVID-19 India is in large scarcity of infastructures so to keep you updated about medical sector of Dhanbad this section gives information of opening-closing of hospitals,pharmacies,diagnostic centers and medical stores of Dhnabad with the details of facilities they are providing.</p>
+			</div>
+			<nav class="grim">
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--1"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--2"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--3"></div>
+					<div class="grim__item-content">
+						<div class="grim__item-inner">
+							<button class="menu-trigger menu-trigger--close"><strong>- close</strong></button>
+						</div>
+					</div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--4"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--5"></div>
+					<a href="#content-1" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">home</h3>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--6"></div>
+					<a href="#content-2" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">ELECTRONICS</h3>
+							<span class="grim__item-desc">Includes restaurants,food courts and local market along with providing home delivery or not</span>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--7"></div>
+					<a href="#content-3" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">STATIONARY</h3>
+							<span class="grim__item-desc">Includes library,book shops and stationary shops</span>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--8"></div>
+					<a href="#content-5" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">RESTAURANTS</h3>
+							<span class="grim__item-desc">Includes restaurants,food courts and local market along with providing home delivery or not</span>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--9"></div>
+					<a href="#content-4" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">OTHERS</h3>
+							<span class="grim__item-desc">Includes government offices,petrol pumps,ATMs and malls</span>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--10" data-duration="1000" data-easing="easeOutQuint"></div>
+					<a href="#content-6" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">MEDICAL</h3>
+							<span class="grim__item-desc">Includes hospitals,pharmacy,medical stores and diagnostic centers</span>
+						</div>
+					</a>
+				</div>
+			</nav>
+		</main>
+		<script src="js/demo.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
+
       
     
      
